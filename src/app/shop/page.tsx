@@ -19,7 +19,7 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination";
-import { newArrivalsData, relatedProductData, topSellingData } from "../page";
+import { newArrivalsData, relatedProductData, topSellingData } from "@/lib/data";
 import ProductCard from "@/components/common/ProductCard";
 import { getProductsFromSheet } from "@/lib/googleSheets";
 
